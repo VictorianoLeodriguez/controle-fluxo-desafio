@@ -19,7 +19,7 @@ public class Contador {
     
     static void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException {
         if (parametroUm >= parametroDois) {
-            throw new ParametrosInvalidosException("O segundo parâmetro deve ser maior que o primeiro");
+             System.err.println("O primeiro parametro deve ser maior que o segundo : ");
         }
         
         int contagem = parametroDois - parametroUm;
