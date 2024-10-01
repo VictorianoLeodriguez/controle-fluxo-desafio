@@ -27,5 +27,5 @@ public class Contador {
         for (int i = 1; i <= contagem; i++) {
             System.out.println("Imprimindo o número " + i);
         }
-    }
+    } //codigo pronto
 }
